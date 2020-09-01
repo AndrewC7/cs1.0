@@ -1,7 +1,10 @@
 # this is a simple conversion calculator. It can handle seconds/minutes/hours 
 
-
-number = input("Number of seconds/minutes/hours to convert:\n")
+print("Welcome to my simple conversion calculator! Simply:\n")
+print("1) Input the number of seconds/minutes/hours\n")
+print("2) Specify seconds/minutes/hours\n")
+print("3) Input your desired conversion\n")
+number = input("\nNumber of seconds/minutes/hours to convert:\n")
 
 # check to make sure user input is an int. If not, ask them to enter one
 while True:
